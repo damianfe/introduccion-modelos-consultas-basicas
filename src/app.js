@@ -18,4 +18,4 @@ app.use('/', indexRouter);
 app.use(moviesRoutes);
 app.use(genresRoutes);
 
-app.listen(process.env.PORT, () => console.log(`Servidor corriendo en el puerto${process.env.PORT}`));
+app.listen(process.env.PORT, () => console.log(`Servidor corriendo en el puerto ${process.env.PORT}`));
